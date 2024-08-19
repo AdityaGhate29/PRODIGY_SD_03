@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Management System📲</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter email address" required>
+            </div>
+            <button type="submit" class="btn">Add Contact</button>
+        </form>
+        <div class="controls">
+            <button id="showContactsButton" class="btn">Show Saved Contacts</button>
+        </div>
+        <div id="contactList" class="contact-list hidden">
+            <!-- Contact list will be dynamically populated here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
