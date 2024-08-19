@@ -10,7 +10,10 @@ Delete Contacts: Remove unwanted contacts with a simple click.
 Persistent Storage: All contacts are stored in the browser’s local storage, ensuring data is preserved between sessions.
 
 ## Demo
-screenshot: ![Screenshot 2024-08-19 234335](https://github.com/user-attachments/assets/ac7ac3d7-ef41-4656-bca3-edecd0ffa995)
+screenshots: 
+
+![Screenshot 2024-08-19 234335](https://github.com/user-attachments/assets/ac7ac3d7-ef41-4656-bca3-edecd0ffa995)
+
 ![Screenshot 2024-08-19 234917](https://github.com/user-attachments/assets/a49810cf-c235-496d-9bcd-fee44bbf03cb)
 
 
